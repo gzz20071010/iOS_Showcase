@@ -19,6 +19,7 @@
 		179E44521C5715D00079D7F0 /* materialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E44511C5715D00079D7F0 /* materialView.swift */; };
 		179E44551C57173E0079D7F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E44541C57173E0079D7F0 /* Constants.swift */; };
 		179E44571C57B6EB0079D7F0 /* materialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E44561C57B6EB0079D7F0 /* materialButton.swift */; };
+		179E44591C57BD1A0079D7F0 /* materialTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E44581C57BD1A0079D7F0 /* materialTextFeild.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		179E44511C5715D00079D7F0 /* materialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = materialView.swift; sourceTree = "<group>"; };
 		179E44541C57173E0079D7F0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		179E44561C57B6EB0079D7F0 /* materialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = materialButton.swift; sourceTree = "<group>"; };
+		179E44581C57BD1A0079D7F0 /* materialTextFeild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = materialTextFeild.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				179E44511C5715D00079D7F0 /* materialView.swift */,
 				179E44561C57B6EB0079D7F0 /* materialButton.swift */,
+				179E44581C57BD1A0079D7F0 /* materialTextFeild.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				179E442C1C56D21B0079D7F0 /* ViewController.swift in Sources */,
 				179E442A1C56D21B0079D7F0 /* AppDelegate.swift in Sources */,
 				179E44551C57173E0079D7F0 /* Constants.swift in Sources */,
+				179E44591C57BD1A0079D7F0 /* materialTextFeild.swift in Sources */,
 				179E44571C57B6EB0079D7F0 /* materialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
