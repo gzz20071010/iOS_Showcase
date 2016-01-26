@@ -10,3 +10,11 @@ import Foundation
 import UIKit
 
 let SHADOW_COLOR: CGFloat = 157.0/255.0
+let KEY_UID = "uid"
+
+
+//segues
+let SEGUE_LOGGEDIN = "loggedin"
+
+//Status codes
+let STATUS_ACCOUNT_NONEXIST = -8

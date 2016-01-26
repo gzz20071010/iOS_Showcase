@@ -23,6 +23,9 @@
 		179E445E1C57D2EA0079D7F0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179E445B1C57D2EA0079D7F0 /* Bolts.framework */; };
 		179E445F1C57D2EA0079D7F0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179E445C1C57D2EA0079D7F0 /* FBSDKCoreKit.framework */; };
 		179E44601C57D2EA0079D7F0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179E445D1C57D2EA0079D7F0 /* FBSDKLoginKit.framework */; };
+		179E44631C57EF0F0079D7F0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E44621C57EF0F0079D7F0 /* DataService.swift */; };
+		179E44651C5828900079D7F0 /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E44641C5828900079D7F0 /* feedVC.swift */; };
+		179E44671C5829A50079D7F0 /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E44661C5829A50079D7F0 /* postCell.swift */; };
 		BB06ABED127E6FBCB4554A2F /* Pods_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C7A5287D5214BF5BDBF322 /* Pods_showcase.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,9 @@
 		179E445B1C57D2EA0079D7F0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		179E445C1C57D2EA0079D7F0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		179E445D1C57D2EA0079D7F0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		179E44621C57EF0F0079D7F0 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		179E44641C5828900079D7F0 /* feedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedVC.swift; sourceTree = "<group>"; };
+		179E44661C5829A50079D7F0 /* postCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
 		2F5D4A08794B433F77E9E4A8 /* Pods-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-showcase/Pods-showcase.debug.xcconfig"; sourceTree = "<group>"; };
 		92C7A5287D5214BF5BDBF322 /* Pods_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4B652AD79F7919E4588625 /* Pods-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-showcase/Pods-showcase.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +92,7 @@
 		179E44281C56D21B0079D7F0 /* showcase */ = {
 			isa = PBXGroup;
 			children = (
+				179E44611C57EEFB0079D7F0 /* Services */,
 				179E445A1C57D2D90079D7F0 /* Frameworks */,
 				179E44531C57171C0079D7F0 /* Util */,
 				179E443E1C56D2530079D7F0 /* Rescoures */,
@@ -105,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				179E442B1C56D21B0079D7F0 /* ViewController.swift */,
+				179E44641C5828900079D7F0 /* feedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -115,6 +123,7 @@
 				179E44511C5715D00079D7F0 /* materialView.swift */,
 				179E44561C57B6EB0079D7F0 /* materialButton.swift */,
 				179E44581C57BD1A0079D7F0 /* materialTextFeild.swift */,
+				179E44661C5829A50079D7F0 /* postCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -153,6 +162,14 @@
 				179E445D1C57D2EA0079D7F0 /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		179E44611C57EEFB0079D7F0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				179E44621C57EF0F0079D7F0 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		1FDDF2234CAD51AD255EEEB3 /* Pods */ = {
@@ -300,8 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				179E44521C5715D00079D7F0 /* materialView.swift in Sources */,
+				179E44631C57EF0F0079D7F0 /* DataService.swift in Sources */,
 				179E442C1C56D21B0079D7F0 /* ViewController.swift in Sources */,
 				179E442A1C56D21B0079D7F0 /* AppDelegate.swift in Sources */,
+				179E44671C5829A50079D7F0 /* postCell.swift in Sources */,
+				179E44651C5828900079D7F0 /* feedVC.swift in Sources */,
 				179E44551C57173E0079D7F0 /* Constants.swift in Sources */,
 				179E44591C57BD1A0079D7F0 /* materialTextFeild.swift in Sources */,
 				179E44571C57B6EB0079D7F0 /* materialButton.swift in Sources */,
